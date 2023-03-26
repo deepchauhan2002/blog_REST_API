@@ -65,6 +65,17 @@ Example response:<br/>
   "tag": "JavaScript"
 }
 
+## INSTALLATION<br/>
+- Clone the repository.<br/>
+- Navigate to the project directory: `cd blog_REST_API`.<br/>
+- Install dependencies: `npm install`
+
+## Starting the Server<br/>
+- Start the server with nodemon: `npm run dev`.<br/>
+- The server should now be running on ~http://localhost:3000/`.<br/>
+
+Note: nodemon is used here to automatically restart the server when changes are made to the code. This is useful during development, but should not be used in production environments
+
 
 
 

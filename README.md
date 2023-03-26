@@ -69,6 +69,7 @@ Example response:<br/>
 - Clone the repository.<br/>
 - Navigate to the project directory: `cd blog_REST_API`.<br/>
 - Install dependencies: `npm install`
+- Enter the MongoDB credentials in the .env file containing details for your database.</br>
 
 ## Starting the Server<br/>
 - Start the server with nodemon: `npm run dev`.<br/>

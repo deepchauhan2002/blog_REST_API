@@ -17,14 +17,14 @@ RESPONSE<br/>
 - `totalPages`: The total number of pages based on the limit and count of documents.<br/>
 - `currentPage`: The current page number.<br/>
 
-Example response:
+Example response:<br/>
 {
   "blogs": [
     {
       "id": "1",
       "name": "Blog Post 1",
       "description": "This is the first blog post.",
-      "image": "https://example.com/images/post1.jpg",
+      "image": "https://image_url",
       "category": "Technology",
       "tag": "JavaScript"
     },
@@ -32,7 +32,7 @@ Example response:
       "id": "2",
       "name": "Blog Post 2",
       "description": "This is the second blog post.",
-      "image": "https://example.com/images/post2.jpg",
+      "image": "https://image_url",
       "category": "Lifestyle",
       "tag": "Fitness"
     }
@@ -42,7 +42,7 @@ Example response:
 }
 
 ## GET /posts/:id
-This endpoint retrieves a specific blog post by its ID and displays the details in an easy-to-read format.<br/>
+This endpoint retrieves a specific blog post by its ID and displays the details.<br/>
 REQUEST<br/>
 GET /posts/:id<br/>
 Parameters:<br/>
@@ -60,7 +60,7 @@ Example response:<br/>
   "id": "1",
   "name": "Blog Post 1",
   "description": "This is the first blog post.",
-  "image": "https://example.com/images/post1.jpg",
+  "image": "https://image_url",
   "category": "Technology",
   "tag": "JavaScript"
 }
